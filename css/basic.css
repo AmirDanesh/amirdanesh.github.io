@@ -1,22 +1,3 @@
-/**
-*	Ryan - Resume/CV/vCard Template (HTML)
-*	Version: 2.5
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
-
-/* TABLE OF CONTENTS
-	1. Base
-	2. Container
-	3. Columns
-	4. Preloader
-	5. Typography
-	6. Forms
-	7. Alignments
-	8. Animations
-*/
-
 /*
 	1. Basic
 */
@@ -1031,3 +1012,12 @@ textarea.error::-webkit-input-placeholder {
 
 }
 
+.resume-item ul {
+	list-style: disc;
+	margin-left: 30px;
+}
+
+.curve-image-border{
+	border-radius: 0 10px 0 10px;
+	border: 0.5px solid;
+}

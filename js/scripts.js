@@ -1,12 +1,3 @@
-/*
-*   Author: beshleyua
-*   Author URL: http://themeforest.net/user/beshleyua
-*/
-
-
-/*
-	Preloader
-*/
 
 $(window).on("load", function() {
 	var preload = $('.preloader');
@@ -576,13 +567,13 @@ function initMap() {
 	});
 }
 
-( function( $ ) {
-	'use strict';
+// ( function( $ ) {
+// 	'use strict';
 	
 	// load html
-	$.get("https://bslthemes.com/ryan/bar/bar.html", function (data) {
-        $('body').append(data);
- 		console.log(data);
-    });
+	// $.get("https://bslthemes.com/ryan/bar/bar.html", function (data) {
+    //     $('body').append(data);
+ 	// 	console.log(data);
+    // });
 	
-} )( jQuery );
+// } )( jQuery );
